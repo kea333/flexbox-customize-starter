@@ -110,6 +110,7 @@ body {
 
 .wrapper {
   display:flex;  /* display set to flex and justify-content & align-items properties used to center all child elements on the page */
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -131,8 +132,25 @@ body {
   border-radius: 10px;
   padding: 0px 30px;
   width: 25%;
-  height: 80%;                 /* changed height from 300px to 80% */
+  height: 75%;                 /* changed height from 300px to 80% */
 }
+
+#more-content {
+    display: flex;  /* added another div */
+    justify-content: center;
+    align-items: center;
+    background: #999999;
+    background:rgba(153, 153, 153, 0.5);
+    color: #000080;
+    font-family: 'Mina', sans-serif;
+    font-weight: 700;
+    font-size: 1.20rem;
+    line-height: 1.5rem;
+    border-radius: 10px;
+    padding: 0px 30px;
+    width: 25%;
+    height: 15%;                 
+  }
 
 #content p span {
     font-family: 'Niconne', cursive;
