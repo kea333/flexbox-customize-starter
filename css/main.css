@@ -1,5 +1,7 @@
 /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
+/* CS = CodeSensei337 comments */
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -92,25 +94,25 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+    Author's custom styles     CS = CodeSensei337 comments
    ========================================================================== */
 
 /*Large Background Image*/
 html {
-  background: url(../img/pexels-positive-space.jpg) no-repeat center center fixed;
+  background: url(../img/pexels-positive-space.jpg) no-repeat center center fixed;                      /* CS : changed background image */
   background-size: cover;
   height: 100%;
- /* height set to 100% - important for allowing content to vertically align */
+                                                        /* CS : height set to 100% - important for allowing content to vertically align */
 }
 
 body {
   height: 100%;
-  /* height set to 100% - important for allowing content to vertically align */
+                                                        /* CS : height set to 100% - important for allowing content to vertically align */
 }
 
 .wrapper {
-  display:flex;  /* display set to flex and justify-content & align-items properties used to center all child elements on the page */
-  flex-direction: column;
+  display:flex;         /* CS : display set to flex and justify-content & align-items properties used to center all child elements on the page */
+  flex-direction: column;       /* CS : added flex-direction to enable alignment of divs */
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -119,7 +121,7 @@ body {
 }
 
 #content {
-  display: flex;  /* display set to flex and justify-content & align-items properties used to center the text within the div*/
+  display: flex;            /* CS : display set to flex and justify-content & align-items properties used to center the text within the div*/
   justify-content: center;
   align-items: center;
   background: #999999;
@@ -131,12 +133,12 @@ body {
   line-height: 1.5rem;
   border-radius: 10px;
   padding: 0px 30px;
-  width: 25%;
-  height: 75%;                 /* changed height from 300px to 80% */
+  width: 25%;                  /* CS : changed width from 300px to 25% */
+  height: 75%;                 /* CS : changed height from 300px to 75% */
 }
 
-#more-content {
-    display: flex;  /* added another div */
+#more-content {                /* CS : added another div within the same container */
+    display: flex;  
     justify-content: center;
     align-items: center;
     background: #999999;
@@ -149,7 +151,8 @@ body {
     border-radius: 10px;
     padding: 0px 30px;
     width: 25%;
-    height: 15%;                 
+    height: 15%;                 /* CS : set height to 15%, total set height including content above = 90%, leaving enough room 
+                                    for padding-border-margin histrionics */
   }
 
 #content p span {
