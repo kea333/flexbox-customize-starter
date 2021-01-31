@@ -128,9 +128,9 @@ body {
   background:rgba(153, 153, 153, 0.5);
   color: #000080;
   font-family: 'Mina', sans-serif;
-  font-weight: 700;
-  font-size: 1.20rem;
-  line-height: 1.5rem;
+  font-weight: 800;
+  font-size: 1.70rem;
+  line-height: 2.25rem;
   border-radius: 10px;
   padding: 0px 30px;
   width: 25%;                  /* CS : changed width from 300px to 25% */
@@ -145,9 +145,9 @@ body {
     background:rgba(153, 153, 153, 0.5);
     color: #000080;
     font-family: 'Mina', sans-serif;
-    font-weight: 700;
-    font-size: 1.20rem;
-    line-height: 1.5rem;
+    font-weight: 800;
+    font-size: 1.70rem;
+    line-height: 2.0rem;
     border-radius: 10px;
     padding: 0px 30px;
     width: 25%;
@@ -157,7 +157,7 @@ body {
 
 #content p span {
     font-family: 'Niconne', cursive;
-    font-size: 1.80rem;
+    font-size: 2.5rem;
     font-weight: 400;
 }
 
